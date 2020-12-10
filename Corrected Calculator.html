@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="Style.css">
+<script src="JavaScript.js"></script>
+
+</head>
+
+<body>
+<form id="myForm">
+    <table align = "center"  cellpadding = "10">
+      <td>
+
+        <fieldset  style="padding:20px; width:400px">
+          <legend align = "center">Simple Calculator </legend>
+          Value 1:&nbsp; <input type="text" size = "6" id="value1" >&nbsp;&nbsp;
+          Operation:&nbsp;<input type = "text" size = "2" id = "operation" disabled><br><br>
+          Value 2:&nbsp; <input type="text" size = "6" id="value2"  ><br/><br/>
+          Result:&nbsp; <input type="text" size = "20" id="result" disabled><br><br>
+          +&nbsp;<input type="radio" name="operator" id="add" value ="+"/><br>
+          -&nbsp;&nbsp;<input type="radio" name="operator" id="subtract" value="-"><br>
+          *&nbsp;<input type="radio" name="operator" id="multiply" value="*"><br>
+          /&nbsp;&nbsp;<input type="radio" name="operator" id="divide" value="/"><br><br>
+
+          <button type="button" onclick="calc()">Calculate</button>
+          <button type="reset" value="Reset">Reset</button>
+        </fieldset>
+      </td>
+    </table>
+  </form>
+
+</body>
+</html>
